@@ -102,6 +102,7 @@ text-shadow:  1px 1px 10px black;
 }
 
 .cell{
+  border-radius: 10px;
   box-shadow: 1px 1px 10px #E0D4D4;
 }
 
