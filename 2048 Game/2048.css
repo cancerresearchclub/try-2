@@ -1,0 +1,112 @@
+#box{
+  position:relative;
+  height:500px;
+  width:500px;
+  }
+
+  #adspace1{
+    position: absolute;
+    background-color: white;
+    top:100px;
+    height:500px;
+    width: 200px;
+    left:0px;
+    opacity:0.3;
+  }
+
+  #adspace2{
+    position: absolute;
+    background-color: white;
+    top:100px;
+    height:500px;
+    width: 200px;
+    right:0px;
+    opacity:0.3;
+  }
+
+  .adbox{
+    background-color: grey;
+    height:150px;
+    width: 180px;
+    margin: 5px;
+  }
+
+  #gameover{
+  position:absolute;
+  font-size: 0em;
+  font-style: fantasy;
+  font-family: impact;
+  color: white;
+  opacity: 1;
+  top: 270px;
+  left: 140px;
+}
+
+#grid{
+  position:relative;
+  top: 100px;
+  height: 505px;
+  width: 505px;
+  background-color: grey;
+  opacity:0.9;
+  border-radius:10px;
+}
+
+p{
+  color: white;
+  text-shadow:  1px 1px 10px black;
+}
+
+#title{
+  font-style: fantasy;
+  font-family: impact;
+  font-weight: bold;
+  font-size: 70px;
+position: absolute;
+top:0%;
+left:44%;
+margin: 5px;
+color: white;
+text-shadow:  1px 1px 10px black;
+}
+
+#score{
+  font-style: fantasy;
+  font-family: impact;
+  position: relative;
+  font-weight: bold;
+  font-size: 2em;
+  left: 100px;
+  top:20px;
+}
+/*
+@media only screen and (max-width: 800px) {
+  #title{
+    font-style: fantasy;
+    font-family: impact;
+    position: fixed;
+    top: 0px;
+    font-weight: bold;
+    font-size: 5em;
+    left: 39%
+  }
+*/
+  #score{
+    font-style: fantasy;
+    font-family: impact;
+    position: fixed;
+    font-weight: bold;
+    font-size: 2em;
+    left: 10px;
+  }
+}
+
+.cell{
+  box-shadow: 1px 1px 10px #E0D4D4;
+}
+
+#body{
+  background-color:#F9DDF7;
+  background-image: url("back.png");
+  background-size:cover;
+}
